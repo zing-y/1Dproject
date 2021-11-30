@@ -1,3 +1,3 @@
 # 1Dproject
-CDT game code
+CDT game code\n
 print("nice")
