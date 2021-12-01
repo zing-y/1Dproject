@@ -22,8 +22,8 @@ while x != 'YES' and x != 'NO':
 if x == "YES":
         print ('Welcome to the informative and exciting game of Smarty Pants where you can learn new things and have fun with your friend!')
         print("------------------------------------------------------------------------------------------------------------")
+        
         Player_1 = input('What is the nickname that Player 1 would like to use?: ')
-   
         Player_2 = input('What is the nickname that Player 2 would like to use?: ')
         print("------------------------------------------------------------------------------------------------------------")
     
