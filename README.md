@@ -60,3 +60,47 @@ if x == "YES":
         
 elif x == "NO":
     print('Aww manz! Hope you will play Smarty Pants another time!')
+
+###################################################
+print(player1.upper(),"WINS THE GAME!")
+
+print("     ( ๑>ᴗ<๑ )")
+print("      (ง'̀-'́)ง")
+print("    (⌐■_■)–︻╦╤─")
+print("    (づ￣ ³￣)づ")
+print("    ϞϞ(๑⚈ ․̫ ⚈๑)∩")
+print("CONGRATULATIONS!!!!")
+#####################################################
+
+import random
+#List of questions & answers
+se1 = "What % of earth is covered by water? \n  A: 71% \n  B: 69% \n  C: 78% \n  D: 64% \n"
+se2 = "qfe? A: 71% \n  B: 69% \n  C: 78% \n  D: 64% \n"
+
+#Dictionary of questions & correct answers
+ls_sc_e = [{se1:"A"},{se2:"B"}]
+points = 0
+
+#marking system
+randomquestion = random.randint(0,len(ls_sc_e)-1)
+question_going_to_ask = ls_sc_e[randomquestion]
+print(question_going_to_ask.keys())
+
+answer input()
+if input(se1).upper() == sc_e[se1]:
+    points += 1
+else:
+    points +=0
+
+#print score
+print("Score:" ,points)
+
+
+
+#Dictionary of questions & correct answers
+sc_e = {se1:"A"}
+print(sc_e)
+del(sc_e[se1])
+print(sc_e)
+
+###################################################################
