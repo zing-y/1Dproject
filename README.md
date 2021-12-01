@@ -2,15 +2,15 @@
 CDT game code
 
 #List of questions & answers
-SE1 = "What % of earth is covered by water? \n  A: 71% \n  B: 69% \n  C: 78% \n  D: 64% \n"
-SE2 = ""
+se1 = "What % of earth is covered by water? \n  A: 71% \n  B: 69% \n  C: 78% \n  D: 64% \n"
+se2 = ""
 
 #Dictionary of questions & correct answers
-Sc_E = {SE1:"A" , SE2:""}
+sc_e = {se1:"A" , se2:""}
 points = 0
 
 #marking system
-if input(SE1).upper() == Sc_E[SE1]:
+if input(se1).upper() == sc_e[se1]:
     points += 1
 else:
     points +=0
